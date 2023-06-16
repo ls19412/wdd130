@@ -24,3 +24,30 @@ box-shadow: 0  0 30px gray;
 p{
 padding: 10px;
 }
+
+main {
+
+    max-width: 500px;
+}
+
+main img{
+    width: 150px;
+    height: auto;
+}
+aside{
+margin:16px ;
+border:1px solid #eee;
+padding: 16px;
+background-color: 333;
+color:gray ;
+
+
+}
+
+p{ padding: 0px;}
+
+footer{
+    margin-top: 16px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
