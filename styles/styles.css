@@ -33,12 +33,12 @@ box-shadow: 0  0 30px gray;
 }
 
 p{
-padding: 10px;
+padding: 30px;
 }
 
 main {
 
-    max-width: 500px;
+    max-width: 650px;
 }
 
 main img{
@@ -47,7 +47,7 @@ main img{
 }
 aside{
 margin:16px ;
-border:1px solid #eee;
+border:6px solid #eee;
 padding: 16px;
 background-color: #333;
 color:gray ;
@@ -55,12 +55,11 @@ color:gray ;
 
 aside img{
     width: 200px;
+    
     height: auto;
 }
 
-p{
-    padding: 0;
-}
+
 
 footer{
     margin-top: 16px;
@@ -73,30 +72,34 @@ footer{
 /* Class Selectors */
 .box {
     margin: 1rem;
-    border: 3px solid rgba(0,0,0,.1);
-    padding: 1rem;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 3rem;
     background-color: #ddd;
     color: #000;
-    
-    
-}
+   
 
-aside{
-    position: relative;
-    width:20em;
+}
+    aside {
+    width:25em;
     text-align: center;
+    position: relative;
 }
 
 
 
 main img {
- float:right;
 
+float:right;
 }
 
 aside h2 {
     position: absolute;
-    top: 47px;
-    left: 50px;
+    top: 15px;
+    left: 150px;
+}
+
+#error {
 
 
+}
+)
