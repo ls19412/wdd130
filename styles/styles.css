@@ -55,7 +55,7 @@ color:gray ;
 
 aside img{
     width: 200px;
-    
+    margin-right: 50px;
     height: auto;
 }
 
@@ -67,7 +67,10 @@ footer{
     text-align: center;
 }
 
+#error {
 
+padding-top:200px;
+}
 
 /* Class Selectors */
 .box {
@@ -97,9 +100,3 @@ aside h2 {
     top: 15px;
     left: 150px;
 }
-
-#error {
-
-
-}
-)
