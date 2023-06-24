@@ -55,6 +55,7 @@ a {
     text-align: center;
     bottom: 600px;
     background-color: rgba(169,157,117,.7);
+    z-index: 10;
 
     
 }
@@ -67,6 +68,7 @@ article {
     text-align: center;
     margin-left: 11%;
     margin-right: 15%;
+    z-index: 10;
 }
 
 article img{
@@ -76,4 +78,5 @@ article img{
     bottom: 200px;
     padding: 10px;
     padding-right: 50px;
+    z-index: 10;
 }
