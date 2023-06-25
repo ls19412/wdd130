@@ -66,10 +66,11 @@ article{
     padding: 25px;
     background-color: rgba(100,141,229, .7) ;
     margin: 30px;
+
 }
 #happy{
     float: right;
     width: 200px;
     height: auto;
-    
+    margin-left: 5px;
 }
