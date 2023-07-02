@@ -54,7 +54,7 @@ border:6px solid #eee;
 padding: 16px;
 background-color: #333;
 color:gray ;
-grid-template-columns: 1fr;
+
 }
 
 aside img{
@@ -126,7 +126,7 @@ nav a {
 }
 
 header, .grid, footer{
-    grid-template-columns: 1fr;
+    
     max-width: 840px;
 }
 
