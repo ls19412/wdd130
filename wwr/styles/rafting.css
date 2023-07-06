@@ -74,4 +74,91 @@ article{
     height: auto;
     margin-left: 5px;
 }
+header{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    grid-template-columns:  400px 500px;
+    grid-template-rows:100px;
+}
+nav {
+    display: flex;
+    justify-content: right;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
 
+}
+/* STEP 7 */
+.history {
+    display: grid;
+    grid-template-columns: 200px 600px 200px;
+    grid-template-rows: 600px;
+    grid-template-areas: 'left center right';
+}
+.historytext1 {
+    grid-area: left;
+    padding-top: 80px;
+}
+.historytext2 {
+    grid-area: right;
+    padding-top: 80px;
+}
+.historycenter {
+    grid-area: center;
+    text-align: center;
+    align-items: center;
+    z-index: 1;
+    
+}
+
+.image_1 {
+
+    grid-area: center;
+    place-items: center;
+    padding-top: 80px;
+    justify-content: center;
+    justify-self: center;
+}
+
+.photos {
+    max-width: 100px;
+    display: grid;
+    grid-template-columns: repeat(5 ,200px );
+    grid-template-rows: 400px;
+    grid-template-areas:'left left1 center right1 right';
+    text-align: center;
+    justify-content: space-between;
+
+}
+
+.Adventuretag{
+    
+    height: auto;
+    text-align: center;
+    grid-area: center;
+
+}   
+
+
+.image5 {
+    display: grid;
+    max-width: 150px;
+    height: 100px;  /*later*/
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top:80px ;
+    justify-self: center;
+    place-items: center;
+    transform: translate(-13px);
+
+}
+.Socials {
+    display: flex;
+    justify-content:flex-end
+}
+#copyright {
+    display: flex;
+    justify-content:center;
+}
