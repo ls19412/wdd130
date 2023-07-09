@@ -37,6 +37,8 @@ button {
 }
 .num{
     text-align: left;
+    font-size: 20px;
+    color: blue;
 }
 button {
     background-color:steelblue;
