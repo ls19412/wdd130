@@ -198,3 +198,33 @@ nav {
     text-align: center;
     font-size: 30px;
 }
+
+form {
+
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 2px solid var(--secondary-color);
+    background-color: #eee;
+    display: grid;
+    text-align: left;
+    color: var(--secondary-color);
+    margin-bottom: 30px;
+    margin-top: 20px;
+    padding: 20px;
+}
+input {
+    color: var(--accent2-color);
+    font-size: 20px;
+    font-family: 'Roboto' , sans-serif;
+   
+
+}
+
+button {
+    color: #304C89;
+    background-color: #A99D75;
+    display: block;
+    font-size: 16px;
+    text-align: center;
+}
