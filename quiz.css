@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid black;
+    background-color: #eee;
+    display: grid;
+}
+legend{
+    font-size: 20px;
+    text-align: center;
+    color: blue;
+}
+#q1{
+    display: block;
+}
+#q2{
+    display: block;
+}
+#q3{
+    display: block;
+}
+#q4{
+    display: block;
+}
+
+button {
+   display: block;
+    margin-top: 10px;
+    text-align: center;
+}
+.num{
+    text-align: left;
+}
+button {
+    background-color:steelblue;
+}
