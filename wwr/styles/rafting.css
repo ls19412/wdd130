@@ -244,3 +244,31 @@ legend {
 label {
     font-family: 'Roboto', sans-serif;
 }
+
+.contactme {
+    display: block;
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.table1 {
+    display: grid;
+    max-width: 200px;
+    text-align: center;
+
+}
+table {
+    border: 1px solid#000;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto', sans-serif;
+    color: var(--accent2-color);
+    padding: 10px;
+    max-width: 100px;
+}
+
+#photowid {
+    height: 150px;
+    width: 200px;
+}
