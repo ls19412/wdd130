@@ -254,21 +254,33 @@ label {
 
 .table1 {
     display: grid;
-    max-width: 200px;
+    max-width: 300px;
     text-align: center;
 
 }
 table {
-    border: 1px solid#000;
+    border: 2px solid var(--secondary-color);
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
     font-family: 'Roboto', sans-serif;
     color: var(--accent2-color);
     padding: 10px;
-    max-width: 100px;
+    max-width: 300px;
 }
 
 #photowid {
-    height: 150px;
-    width: 200px;
+    height: 225px;
+    width: 300px;
+}
+
+.trips1 {
+    color: var(--primary-color);
+    font-family: 'Oswald', sans-serif;
+}
+
+.Time {
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+color: #9EB7E5;
 }
