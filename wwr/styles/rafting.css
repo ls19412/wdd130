@@ -303,7 +303,7 @@ color: #9EB7E5;
     grid-template-rows: 20px;
     text-align: center;
 
-.homeform1 {
+.fixes2 {
     text-align: left;
 }
 
@@ -349,7 +349,6 @@ font-size: 70px;
 }
 
 .title1 {
-    display: ;
     color: var(--primary-color);
     text-align: center;
     border-bottom:2px solid var(--secondary-color);
